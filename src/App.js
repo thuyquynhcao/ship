@@ -22,7 +22,14 @@ class App extends Component{
                 <Input type="password" placeholder="Password"/>
             </FormGroup>
 
-            <Label> Remember me? </Label>
+            <div className="options">
+                <label title="item1">
+                    <input type="checkbox" name="foo" value="0"/>
+                     Remember me
+                    <img/>
+                </label>
+
+            </div>
 
             <Button className="btn-lg btn-dark btn-block">
                     Sign in
